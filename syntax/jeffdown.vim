@@ -6,11 +6,11 @@ syntax match jeffdownFileRef "\v(<\u\i*>)+" contained containedin=jeffdownLink
 syntax region jeffdownItalic start="_" end="_"
 syntax region jeffdownBold start="\*" end="\*"
 
-highlight default link jeffdownSelfNote Constant
+highlight default link jeffdownSelfNote Comment
 highlight default link jeffdownLink PreProc
 highlight default link jeffdownFileRef PreProc
-highlight default link jeffdownItalic Special
-highlight default link jeffdownBold Special
+highlight default link jeffdownItalic Character
+highlight default link jeffdownBold Constant
 
 " Todo     Loud reverse text w black on yellow
 " Comment  Yellow, just like this line
