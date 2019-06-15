@@ -7,11 +7,11 @@ syntax region jeffdownItalic start="_" end="_"
 syntax region jeffdownBold start="\*" end="\*"
 syntax region jeffdownComment start="^ " end="$"
 
-highlight default link jeffdownSelfNote Constant
+highlight default link jeffdownSelfNote Comment
 highlight default link jeffdownLink PreProc
 highlight default link jeffdownFileRef PreProc
-highlight default link jeffdownItalic Special
-highlight default link jeffdownBold Special
+highlight default link jeffdownItalic Character
+highlight default link jeffdownBold Constant
 highlight default link jeffdownComment Statement
 
 " Todo     Loud reverse text w black on yellow
